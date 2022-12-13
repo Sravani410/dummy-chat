@@ -12,7 +12,6 @@ app.use(express.json());
 app.use(cors());
 
 
-
 const UserController = require("./src/routes/user.route");
 const LoginController = require("./src/routes/login.route");
 const AvatarController = require("./src/routes/avatar.route");
